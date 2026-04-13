@@ -35,7 +35,7 @@ Compared to existing web interaction datasets (Mind2Web, WebLINX, GUIAct):
 - **10× more trajectories** than the next largest human-annotated dataset
 - **Covers authenticated workflows** (e-commerce checkout, banking, travel booking) that synthetic methods cannot capture
 - **Triple Alignment**: every step synchronizes visual, structural, and action data
-- **Fully open-source** — data, collection tools, and benchmarks are all public
+- **Fully open-source** — data is all public
 
 ---
 
@@ -43,11 +43,6 @@ Compared to existing web interaction datasets (Mind2Web, WebLINX, GUIAct):
 
 The dataset is hosted on HuggingFace: **[computer-use-agent-Lab/WebChain](https://huggingface.co/datasets/computer-use-agent-Lab/WebChain)**
 
-```python
-from datasets import load_dataset
-
-dataset = load_dataset("computer-use-agent-Lab/WebChain")
-```
 
 ### Data Schema
 

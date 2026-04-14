@@ -55,6 +55,14 @@ Each step in a trajectory contains **Triple Alignment** across three modalities:
 | **Action Grounding** | Action type, pixel coordinates, bounding box, CSS selector, XPath |
 | **Reasoning** | Chain-of-Thought (CoT) rationale for the action |
 
+### Trajectory Example
+
+The figure below illustrates a real trajectory and the multi-dimensional annotation captured at each step, including visual observations, structural semantics, and behavioral supervision.
+
+<div align="center">
+  <img src="trajectory_info.png" alt="WebChain trajectory example with multi-dimensional step information" width="100%">
+</div>
+
 ### Domain Coverage
 
 WebChain spans **428 unique domains** across diverse categories:

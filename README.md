@@ -94,15 +94,6 @@ We propose **Dual Mid-Training**, a training paradigm that decouples spatial gro
 2. **CoT-SFT** — Supervised fine-tuning on CoT-augmented data for planning initialization
 3. **SGRL** — Spatial Grounding RLVR training with Visual Grounding Densification
 
-### State-of-the-Art Results
-
-Our models achieve SOTA on **GUI-Act** and **OmniAct** benchmarks:
-
-| Model | GUI-Act-Web SR | OmniAct-Web SR | Overall |
-|-------|---------------|----------------|---------|
-| Qwen2.5-VL-7B (Zero-Shot) | 83.9 | 70.3 | 70.9 |
-| GUI-R1-7B | 80.3 | 77.3 | 74.2 |
-| **WebChain-7B (Dual Mid-Training)** | **87.6** | **78.9** | **81.4** |
 
 ### Scaling Laws
 

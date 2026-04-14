@@ -102,6 +102,15 @@ We propose **Dual Mid-Training**, a training paradigm that decouples spatial gro
 2. **CoT-SFT** — Supervised fine-tuning on CoT-augmented data for planning initialization
 3. **SGRL** — Spatial Grounding RLVR training with Visual Grounding Densification
 
+### Benchmark Results (Table 3)
+
+The table below reports detailed comparisons across AC-High/Low, GUI-Act-Web, GUI-Odyssey, OA-Desktop, and OA-Web benchmarks.  
+Models trained on WebChain achieve the strongest overall performance, with **WebChain-7B (+SGRL+CoT-SFT)** reaching **81.4** overall.
+
+<div align="center">
+  <img src="webchain_table3_benchmark_results.png" alt="Table 3: detailed benchmark comparison across GUI-Act and OmniAct-style suites" width="100%">
+</div>
+
 
 ### Scaling Laws
 

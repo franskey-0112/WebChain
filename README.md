@@ -5,8 +5,8 @@
 ### A Large-Scale Human-Annotated Dataset of Real-World Web Interaction Traces
 
 [![Paper](https://img.shields.io/badge/Paper-arXiv%202603.05295-red?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2603.05295)
-[![Dataset](https://img.shields.io/badge/Dataset-HuggingFace-yellow?style=flat-square&logo=huggingface)](https://huggingface.co/datasets/computer-use-agent-Lab/WebChain)
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue?style=flat-square)](LICENSE)
+[![Dataset](https://img.shields.io/badge/Dataset-HuggingFace-yellow?style=flat-square&logo=huggingface)](https://huggingface.co/datasets/webagentlab/webchain)
+[![License](https://img.shields.io/badge/License-Academic%20Research-blue?style=flat-square)](https://huggingface.co/datasets/webagentlab/webchain/blob/main/LICENSE)
 
 </div>
 
@@ -41,7 +41,12 @@ Compared to existing web interaction datasets (Mind2Web, WebLINX, GUIAct):
 
 ## Dataset
 
-The dataset is hosted on HuggingFace: **[computer-use-agent-Lab/WebChain](https://huggingface.co/datasets/computer-use-agent-Lab/WebChain)**
+The cleaned, training-ready v2 dataset is hosted on Hugging Face: **[webagentlab/webchain](https://huggingface.co/datasets/webagentlab/webchain)**.
+
+- Trace-level multi-turn SFT: `data/trace_sft/`
+- Seed/Demo sliding-window SFT: `data/seed_sft/`
+
+The dataset card contains schemas, loading examples, metadata documentation, a 150-trace evaluation subset, and package-verification instructions.
 
 
 ### Data Schema
@@ -135,7 +140,7 @@ If you find WebChain useful in your research, please cite our paper:
 
 ## License
 
-This project is released under the [Apache 2.0 License](LICENSE).
+The dataset is available for academic and educational use under the [WebChain Academic Research License v1.0](https://huggingface.co/datasets/webagentlab/webchain/blob/main/LICENSE). Commercial use requires separate written permission from the authors.
 
 ---
 

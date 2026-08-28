@@ -6,7 +6,7 @@
 
 [![Paper](https://img.shields.io/badge/Paper-arXiv%202603.05295-red?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2603.05295)
 [![Dataset](https://img.shields.io/badge/Dataset-HuggingFace-yellow?style=flat-square&logo=huggingface)](https://huggingface.co/datasets/webagentlab/webchain)
-[![License](https://img.shields.io/badge/License-Academic%20Research-blue?style=flat-square)](https://huggingface.co/datasets/webagentlab/webchain/blob/main/LICENSE)
+[![License](https://img.shields.io/badge/License-CC%20BY%204.0-blue?style=flat-square)](LICENSE)
 
 </div>
 
@@ -140,7 +140,7 @@ If you find WebChain useful in your research, please cite our paper:
 
 ## License
 
-The dataset is available for academic and educational use under the [WebChain Academic Research License v1.0](https://huggingface.co/datasets/webagentlab/webchain/blob/main/LICENSE). Commercial use requires separate written permission from the authors.
+WebChain is completely free and openly available under the [Creative Commons Attribution 4.0 International License](LICENSE). You may use, modify, and redistribute it for any purpose, including commercial use, provided that you give appropriate credit, link to the license, and indicate whether changes were made. No access request or separate commercial license is required.
 
 ---
 

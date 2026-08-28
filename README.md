@@ -140,7 +140,7 @@ If you find WebChain useful in your research, please cite our paper:
 
 ## License
 
-WebChain is completely free and openly available under the [Creative Commons Attribution 4.0 International License](LICENSE). You may use, modify, and redistribute it for any purpose, including commercial use, provided that you give appropriate credit, link to the license, and indicate whether changes were made. No access request or separate commercial license is required.
+WebChain is released under the [Creative Commons Attribution 4.0 International License](LICENSE). See the license and its [official legal code](https://creativecommons.org/licenses/by/4.0/legalcode) for the applicable permissions and attribution requirements.
 
 ---
 
